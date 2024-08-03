@@ -5,65 +5,65 @@ This tool displays the APIC ID for each logical core / virtual CPU in your syste
 
 **AMD Ryzen 5900X**
 ```
-CPU 0: APIC ID = 0
-CPU 1: APIC ID = 1
-CPU 2: APIC ID = 2
-CPU 3: APIC ID = 3
-CPU 4: APIC ID = 4
-CPU 5: APIC ID = 5
-CPU 6: APIC ID = 6
-CPU 7: APIC ID = 7
-CPU 8: APIC ID = 8
-CPU 9: APIC ID = 9
-CPU 10: APIC ID = 10
-CPU 11: APIC ID = 11
-CPU 12: APIC ID = 16
-CPU 13: APIC ID = 17
-CPU 14: APIC ID = 18
-CPU 15: APIC ID = 19
-CPU 16: APIC ID = 20
-CPU 17: APIC ID = 21
-CPU 18: APIC ID = 22
-CPU 19: APIC ID = 23
-CPU 20: APIC ID = 24
-CPU 21: APIC ID = 25
-CPU 22: APIC ID = 26
-CPU 23: APIC ID = 27
+Logical CPU 0 - Physical Core 0 - APIC ID 0 - SMT On
+Logical CPU 1 - Physical Core 0 - APIC ID 1 - SMT On
+Logical CPU 2 - Physical Core 1 - APIC ID 2 - SMT On
+Logical CPU 3 - Physical Core 1 - APIC ID 3 - SMT On
+Logical CPU 4 - Physical Core 2 - APIC ID 4 - SMT On
+Logical CPU 5 - Physical Core 2 - APIC ID 5 - SMT On
+Logical CPU 6 - Physical Core 3 - APIC ID 6 - SMT On
+Logical CPU 7 - Physical Core 3 - APIC ID 7 - SMT On
+Logical CPU 8 - Physical Core 4 - APIC ID 8 - SMT On
+Logical CPU 9 - Physical Core 4 - APIC ID 9 - SMT On
+Logical CPU 10 - Physical Core 5 - APIC ID 10 - SMT On
+Logical CPU 11 - Physical Core 5 - APIC ID 11 - SMT On
+Logical CPU 12 - Physical Core 6 - APIC ID 16 - SMT On
+Logical CPU 13 - Physical Core 6 - APIC ID 17 - SMT On
+Logical CPU 14 - Physical Core 7 - APIC ID 18 - SMT On
+Logical CPU 15 - Physical Core 7 - APIC ID 19 - SMT On
+Logical CPU 16 - Physical Core 8 - APIC ID 20 - SMT On
+Logical CPU 17 - Physical Core 8 - APIC ID 21 - SMT On
+Logical CPU 18 - Physical Core 9 - APIC ID 22 - SMT On
+Logical CPU 19 - Physical Core 9 - APIC ID 23 - SMT On
+Logical CPU 20 - Physical Core 10 - APIC ID 24 - SMT On
+Logical CPU 21 - Physical Core 10 - APIC ID 25 - SMT On
+Logical CPU 22 - Physical Core 11 - APIC ID 26 - SMT On
+Logical CPU 23 - Physical Core 11 - APIC ID 27 - SMT On
 ```
 
 
 **Intel 14900KF**
 ```
-CPU 0: APIC ID = 0
-CPU 1: APIC ID = 1
-CPU 2: APIC ID = 8
-CPU 3: APIC ID = 9
-CPU 4: APIC ID = 16
-CPU 5: APIC ID = 17
-CPU 6: APIC ID = 24
-CPU 7: APIC ID = 25
-CPU 8: APIC ID = 32
-CPU 9: APIC ID = 33
-CPU 10: APIC ID = 40
-CPU 11: APIC ID = 41
-CPU 12: APIC ID = 48
-CPU 13: APIC ID = 49
-CPU 14: APIC ID = 56
-CPU 15: APIC ID = 57
-CPU 16: APIC ID = 64
-CPU 17: APIC ID = 66
-CPU 18: APIC ID = 68
-CPU 19: APIC ID = 70
-CPU 20: APIC ID = 72
-CPU 21: APIC ID = 74
-CPU 22: APIC ID = 76
-CPU 23: APIC ID = 78
-CPU 24: APIC ID = 80
-CPU 25: APIC ID = 82
-CPU 26: APIC ID = 84
-CPU 27: APIC ID = 86
-CPU 28: APIC ID = 88
-CPU 29: APIC ID = 90
-CPU 30: APIC ID = 92
-CPU 31: APIC ID = 94
+Logical CPU 0 - Physical Core 0 - APIC ID 0 - SMT On
+Logical CPU 1 - Physical Core 0 - APIC ID 1 - SMT On
+Logical CPU 2 - Physical Core 1 - APIC ID 8 - SMT On
+Logical CPU 3 - Physical Core 1 - APIC ID 9 - SMT On
+Logical CPU 4 - Physical Core 2 - APIC ID 16 - SMT On
+Logical CPU 5 - Physical Core 2 - APIC ID 17 - SMT On
+Logical CPU 6 - Physical Core 3 - APIC ID 24 - SMT On
+Logical CPU 7 - Physical Core 3 - APIC ID 25 - SMT On
+Logical CPU 8 - Physical Core 4 - APIC ID 32 - SMT On
+Logical CPU 9 - Physical Core 4 - APIC ID 33 - SMT On
+Logical CPU 10 - Physical Core 5 - APIC ID 40 - SMT On
+Logical CPU 11 - Physical Core 5 - APIC ID 41 - SMT On
+Logical CPU 12 - Physical Core 6 - APIC ID 48 - SMT On
+Logical CPU 13 - Physical Core 6 - APIC ID 49 - SMT On
+Logical CPU 14 - Physical Core 7 - APIC ID 56 - SMT On
+Logical CPU 15 - Physical Core 7 - APIC ID 57 - SMT On
+Logical CPU 16 - Physical Core 8 - APIC ID 64 - SMT Off
+Logical CPU 17 - Physical Core 9 - APIC ID 66 - SMT Off
+Logical CPU 18 - Physical Core 10 - APIC ID 68 - SMT Off
+Logical CPU 19 - Physical Core 11 - APIC ID 70 - SMT Off
+Logical CPU 20 - Physical Core 12 - APIC ID 72 - SMT Off
+Logical CPU 21 - Physical Core 13 - APIC ID 74 - SMT Off
+Logical CPU 22 - Physical Core 14 - APIC ID 76 - SMT Off
+Logical CPU 23 - Physical Core 15 - APIC ID 78 - SMT Off
+Logical CPU 24 - Physical Core 16 - APIC ID 80 - SMT Off
+Logical CPU 25 - Physical Core 17 - APIC ID 82 - SMT Off
+Logical CPU 26 - Physical Core 18 - APIC ID 84 - SMT Off
+Logical CPU 27 - Physical Core 19 - APIC ID 86 - SMT Off
+Logical CPU 28 - Physical Core 20 - APIC ID 88 - SMT Off
+Logical CPU 29 - Physical Core 21 - APIC ID 90 - SMT Off
+Logical CPU 30 - Physical Core 22 - APIC ID 92 - SMT Off
+Logical CPU 31 - Physical Core 23 - APIC ID 94 - SMT Off
 ```
