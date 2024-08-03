@@ -4,6 +4,7 @@ This tool displays the APIC ID for each core in your system.
 ### Example output
 
 **AMD Ryzen 5900X**
+```
 Core 0: APIC ID = 0
 Core 1: APIC ID = 1
 Core 2: APIC ID = 2
@@ -28,10 +29,11 @@ Core 20: APIC ID = 24
 Core 21: APIC ID = 25
 Core 22: APIC ID = 26
 Core 23: APIC ID = 27
-
+```
 
 
 **Intel 14900KF**
+```
 Core 0: APIC ID = 0
 Core 1: APIC ID = 1
 Core 2: APIC ID = 8
@@ -64,3 +66,4 @@ Core 28: APIC ID = 88
 Core 29: APIC ID = 90
 Core 30: APIC ID = 92
 Core 31: APIC ID = 94
+```
