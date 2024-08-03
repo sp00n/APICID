@@ -1,5 +1,5 @@
 /**
-    This file prints out the ACPI ID for each core
+    This file prints out the ACPI ID for each (logical/virtual) core/CPU
     Tested on AMD Ryzen 5900X
     Tested on Intel 14900KF
     Untested for systems with multiple CPUs
@@ -42,7 +42,7 @@ uint32_t get_apic_id() {
 
 
 int main() {
-    // Get the number of logical processors
+    // Get the number of logical cores
     // TODO: Does this work for multi-processor systems?
     SYSTEM_INFO sysinfo;
     GetSystemInfo(&sysinfo);
@@ -52,9 +52,9 @@ int main() {
 
     std::vector<uint32_t> apic_ids(numCores);
 
-    // Iterate through each logical processor
+    // Iterate through each logical core
     for (int core = 0; core < numCores; ++core) {
-        // Set thread affinity to the current core to be able to get the APIC ID
+        // Set thread affinity to the current logical core / virtual CPU to be able to get the APIC ID
         HANDLE thread = GetCurrentThread();
         DWORD_PTR affinityMask = (static_cast<unsigned long long>(1) << core);
         
@@ -66,7 +66,7 @@ int main() {
 
     // Output the APIC IDs
     for (int core = 0; core < numCores; ++core) {
-        std::cout << "Core " << core << ": APIC ID = " << apic_ids[core] << std::endl;
+        std::cout << "CPU " << core << ": APIC ID = " << apic_ids[core] << std::endl;
     }
 
     return 0;
